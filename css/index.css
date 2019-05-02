@@ -172,13 +172,13 @@ header {
   margin: 0 auto;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   border-bottom: 2px dashed gray;
   padding: 10px;
 }
 header h1 {
   padding-top: 10px;
-  padding-right: 200px;
+  padding-right: 400px;
 }
 header nav {
   display: flex;
@@ -208,7 +208,6 @@ header nav a:hover {
 }
 .home {
   margin: 0 auto;
-  width: 800px;
 }
 .home .header-content {
   margin: 0 auto;
@@ -269,4 +268,16 @@ header nav a:hover {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 80%;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 1.2rem;
+  background-color: teal;
+  font-size: 1.7rem;
+  color: white;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #004040;
 }
