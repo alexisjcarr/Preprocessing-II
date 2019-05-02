@@ -3,27 +3,31 @@ header {
   margin: 0 auto;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  border-bottom: 3px dashed black;
+  justify-content: space-evenly;
+  border-bottom: 2px dashed gray;
   padding: 10px;
 
   h1 {
-      padding-top: 10px;
-      padding-left: 200px;
+    padding-top: 10px;
+    padding-right: 200px;
   }
 
   nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-      padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    //   padding-left: 350px;
 
     a {
-        color: gray;
-        text-decoration: none;
-        font-size: 15px;
-        padding: 10px;
+      color: gray;
+      text-decoration: none;
+      font-size: 15px;
+      padding: 10px;
+    }
 
+    a:hover {
+      color: black;
+      font-weight: bolder;
     }
   }
 }
